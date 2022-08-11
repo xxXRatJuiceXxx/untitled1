@@ -1,0 +1,11 @@
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.ToString;
+
+@Data
+@AllArgsConstructor
+@ToString
+public class Point {
+    private int x;
+    private int y;
+}
